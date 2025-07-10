@@ -1,6 +1,5 @@
 import Block from '../common/Block'
 import Title from '../texts/Title'
-import Text from '../texts/Text'
 import emoji from '../../assets/emojis/3.png'
 import MiniTitle from '../texts/MiniTitle'
 
