@@ -41,7 +41,12 @@ const projects = [
 		name: 'wolns.',
 		description:
 			'Сервис для шейринга текущими проигрывающимися треками с разных сервисов: Spotify, Яндекс Музыка',
-		links: [],
+		links: [
+			{
+				name: 'GitHub',
+				href: 'https://github.com/wolns',
+			},
+		],
 	},
 ]
 
@@ -71,7 +76,7 @@ function Project({ logo, name, description, links }: ProjectProps) {
 						links.map(linkProps => (
 							<a
 								href={linkProps.href}
-								className='text-md font-medium text-zinc-300'
+								className='text-md font-medium text-zinc-300 hover:text-zinc-50 transition-all'
 							>
 								{linkProps.name}
 							</a>

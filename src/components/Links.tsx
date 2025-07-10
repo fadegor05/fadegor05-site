@@ -9,12 +9,12 @@ interface LinkProps {
 
 function Link({ icon, username, href }: LinkProps) {
 	return (
-		<div className='flex items-center gap-2'>
+		<a href={href} className='flex items-center gap-2 '>
 			<img src={icon} className='size-6' />
-			<a href={href} className='text-zinc-300 text-md font-medium'>
+			<div className='text-zinc-300 text-md font-medium hover:text-zinc-50 transition-all'>
 				{username}
-			</a>
-		</div>
+			</div>
+		</a>
 	)
 }
 
