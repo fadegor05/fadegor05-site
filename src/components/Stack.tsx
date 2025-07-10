@@ -29,7 +29,7 @@ const categories = [
 	{
 		name: 'Языки',
 		techs: [
-			'https://dccoding.ca/assets/img/python.png',
+			'https://images.icon-icons.com/2699/PNG/512/python_logo_icon_168886.png',
 			'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
 			'https://images.icon-icons.com/2415/PNG/512/typescript_original_logo_icon_146317.png',
 			'https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png',
@@ -54,14 +54,14 @@ const categories = [
 		],
 	},
 	{
-		name: 'Инструменты и всякое другое',
+		name: 'Инструменты и прочее',
 		techs: [
 			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQimEU07zYKTD37UKQp1UIV1lU6578hDyXTbg&s',
-			'https://www.linux-magazin.de/wp-content/uploads/2017/03/gitlab.png',
-			'https://miro.medium.com/v2/resize:fit:1400/1*7qk0-4XwCKWQO0GU5Hu39w.png',
+			'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/GitLab_icon.svg/1200px-GitLab_icon.svg.png',
+			'https://avatars.githubusercontent.com/u/44036562?s=400&v=4',
 			'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png',
 			'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon-S3-Logo.svg/1712px-Amazon-S3-Logo.svg.png',
-			'https://www.svgrepo.com/show/373924/nginx.svg',
+			'https://cdn.iconscout.com/icon/free/png-256/free-nginx-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945048.png',
 			'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwod0EgYh6ixNJuzJAZt413WNM0SX8RrUJsg&s',
 			'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/2066px-Prometheus_software_logo.svg.png',
 		],
