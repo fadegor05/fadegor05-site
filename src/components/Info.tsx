@@ -10,7 +10,7 @@ export default function Info() {
 		<div className='flex w-full gap-3'>
 			<img
 				src={avatar}
-				className='w-4/10 border-1 border-zinc-600 flex rounded-4xl object-cover'
+				className='w-4/10 border-1 border-zinc-600 flex rounded-4xl object-cover animate-fade-in-up'
 			/>
 			<Block>
 				<div className='flex flex-col justify-between'>

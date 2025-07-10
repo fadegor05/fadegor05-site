@@ -33,7 +33,7 @@ const links = [
 
 export default function Links() {
 	return (
-		<div className='w-full bg-zinc-800/50 p-4 flex rounded-4xl backdrop-blur-3xl border-1 border-zinc-600 justify-evenly gap-6'>
+		<div className='w-full bg-zinc-800/50 p-4 flex rounded-4xl backdrop-blur-3xl border-1 border-zinc-600 justify-evenly gap-6 animate-fade-in-up'>
 			{links.map(link => (
 				<Link {...link} />
 			))}
